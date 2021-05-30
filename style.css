@@ -1,0 +1,33 @@
+.body{
+    background-color: black;
+    text-align: center;
+    color: grey;
+}
+
+#head{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color: darkslategray;
+}
+ #tableindex{
+    margin-top: auto;
+    margin-left: left; margin-right: auto;
+    font-size: larger;
+ }
+
+    table,th,td{
+    align-content:center;
+}
+  th,td{
+    padding: -100px
+}   
+  th{
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    column-rule-width: medium;
+    
+}
+    
+         
