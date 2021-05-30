@@ -1,4 +1,4 @@
-.body{
+body{
     background-color: black;
     text-align: center;
     color: grey;
@@ -29,5 +29,69 @@
     column-rule-width: medium;
     
 }
-    
+    table{
+      border: -5px;
+      border-style: double;
+      border-color:grey;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+      color: dimgrey;
+
+
+    }
+
+    #tableindex1{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    #tableindex2{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    #tableindex3{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #tableindex4{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #tableindex5{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #tableindex6{
+      padding: 30px;      
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #tableindex7{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #tableindex8{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #tableindex9{
+      padding: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
          
