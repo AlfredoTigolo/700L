@@ -1,5 +1,4 @@
 
-
 /*--------HOME PAGE---------*/
 body{
     background-color: black;
@@ -12,7 +11,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     color: darkslategray;
+    text-align: center;
 }
+
 
 #logo{
   float: left;
@@ -21,6 +22,20 @@ body{
 #video{
   float: auto;
 }
+
+#pg1{
+  font-size: inherit;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: inherit;
+
+}
+
+#pg2{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
 /*---------HOME PAGE END-----------------*/
 
 
@@ -28,24 +43,26 @@ body{
 
 
     table{
+      table-layout: fixed;
       border: -5px;
       border-style: double;
       border-color:grey;
       font-family: 'Times New Roman', Times, serif;
-      font-size: medium;
+      font-size: small;
       color: dimgrey;
       padding: 30px;
-      height: 100px;
-      width: 100px;
-      column-width: 30%;}
+    }
 
-      td{
-        column-width: 20%;
+
+      td,tr{
+        table-layout: fixed;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
       }
       
 
 
-    }
+    
 
     
 /* <-------------Discography INDEX tables END--------->*/
