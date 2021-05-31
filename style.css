@@ -23,18 +23,24 @@ body{
 
 
  #tableindex{
-    margin-top: auto;
-    margin-left: left; margin-right: auto;
-    font-size: larger;
+  object-fit: cover;
+  object-position: 80% 100%;
+        font-size: larger;
  }
 
     table,th,td{
+      object-fit: cover;
+      object-position: 80% 100%;
     align-content:center;
 }
   th,td{
+    object-fit: cover;
+    object-position: 80% 100%;
     padding: -100px
 }   
   th{
+    object-fit: cover;
+    object-position: 80% 100%;
     align-self: center;
     text-align: center;
     align-content: center;
@@ -42,6 +48,8 @@ body{
     
 }
     table{
+      object-fit: cover;
+      object-position: 80% 100%;
       border: -5px;
       border-style: double;
       border-color:grey;
@@ -53,6 +61,8 @@ body{
     }
 
     #tableindex1{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
@@ -60,6 +70,8 @@ body{
     }
 
     #tableindex2{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
@@ -67,47 +79,63 @@ body{
     }
 
     #tableindex3{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
     }
 
     #tableindex4{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
     }
     #tableindex5{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
     }
 
     #tableindex6{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;      
       margin-left: auto;
       margin-right: auto;
     }
 
     #tableindex7{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
     }
 
     #tableindex8{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
     }
 
     #tableindex9{
+      object-fit: cover;
+      object-position: 80% 100%;
       padding: 30px;
       margin-left: auto;
       margin-right: auto;
     }
          
     .dropbtn {
+      object-fit: cover;
+      object-position: 80% 100%;
       background-color: #000000;
       color: rgb(248, 246, 246);
       padding: 16px;
@@ -148,10 +176,20 @@ body{
     }
 
 
-    div{
-      float: left;
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: DodgerBlue;
+    }
+    
+    .flex-container > div{
+      background-color: #f1f1f1;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
     }
 
-
-
     
+
