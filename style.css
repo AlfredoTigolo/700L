@@ -1,137 +1,125 @@
 
-/*--------HOME PAGE---------*/
-body{
+
+body{/*---HOME PAGE---*/
+
     background-color: black;
-    text-align: center;
-    color: grey;
-}
+        text-align: center;
+            color: grey;
+          }
 
-#head{
+head{
+
     font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    color: darkslategray;
-    text-align: center;
-}
-
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-style: normal;
+                     color: darkslategray;
+                        text-align: center;
+                      }
 
 #logo{
-  float: left;
-}
+
+     float: left;
+    }
 
 #video{
-  float: auto;
-}
+      float: auto;
+    }
 
 #pg1{
-  font-size: inherit;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: inherit;
-
-}
+    font-size: inherit;
+        font-family: 'Times New Roman', Times, serif;
+            text-align: inherit;
+          }
 
 #pg2{
-  font-size: large;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-
-}
-/*---------HOME PAGE END-----------------*/
-
-
-/* <-------------Discography INDEX Tables -------->*/
-
-
-    table{
-      table-layout: fixed;
-      border: -5px;
-      border-style: double;
-      border-color:grey;
-      font-family: 'Times New Roman', Times, serif;
-      font-size: small;
-      color: dimgrey;
-      padding: 30px;
-    }
-
-
-      td,tr{
-        table-layout: fixed;
+    font-size: large;
         font-family: 'Times New Roman', Times, serif;
-        text-align: left;
-      }
+           text-align: center;
+/*--HOME PAGE END--*/}
+          
+
+
+
+table{/* <-----Discography INDEX Tables ----->*/
+      table-layout: fixed;
+          border: -5px;
+             border-style: double;
+                border-color:grey;
+                    font-family: 'Times New Roman', Times, serif;
+                        font-size: small;
+                            color: dimgrey;
+                                padding: 30px;
+                              }
+
+td,tr{
+      table-layout: fixed;
+            font-family: 'Times New Roman', Times, serif;
+                text-align: left;
+/* <---Discography INDEX tables END--->*/}
       
 
+.dropbtn {/* <-----MENU BUTTON-----> */
+         background-color: #000000;
+              color: rgb(248, 246, 246);
+                 padding: 16px;
+                    font-size: 16px;
+                        border: none;
+                      }
 
+.dropdown {
+          position: relative;
+              display: inline-block;
+            }
+
+.dropdown-content {
+                  display: none;
+                      position: absolute;
+                          color:white;
+                            background-color: #030303;
+                                min-width: 160px;
+                                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                          z-index: 1;
+                                        }
+
+.dropdown-content a {
+                    color: rgb(248, 248, 248);
+                      padding: 12px 16px;
+                          text-decoration: none;
+                                  display: block;
+                                }
+
+.dropdown-content a:hover {
+                          background-color: rgb(8, 8, 8);
+                        }
+
+.dropdown:hover .dropdown-content {
+                                  display: block;
+                                }
+
+.dropdown:hover .dropbtn {
+                         background-color: #030303;
+                        }
+
+#dropdown{
+         float: left;
+/*<----MENU END--->*/}
+
+.flex-container {/*<------FLEXBOX------>*/
+                display: flex;
+                    flex-wrap: wrap;
+                        justify-content: space-evenly;
+                              background-color: DodgerBlue;
+                            }
     
-
-    
-/* <-------------Discography INDEX tables END--------->*/
-
-      
- /* <--------------MENU-------------------> */
-    .dropbtn {
-      background-color: #000000;
-      color: rgb(248, 246, 246);
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-    }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      color:white;
-      background-color: #030303;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      color: rgb(248, 248, 248);
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-
-    .dropdown-content a:hover {background-color: rgb(8, 8, 8);}
-
-    .dropdown:hover .dropdown-content {display: block;}
-
-    .dropdown:hover .dropbtn {background-color: #030303;}
-
-    #dropdown{
+.flex-container > div{
+                     background-color: #f1f1f1;
+                        width: 100px;
+                          margin: 10px;
+                            text-align: center;
+                                line-height: 75px;
+                                      font-size: 30px;
+/*<---FLEXBOX END-->*/}
+div{
       float: left;
     }
-/*<---------MENU END--------------------->*/
-
-
-/*<-----------------------------------FLEXBOX------------------------>*/
-    .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      background-color: DodgerBlue;
-    }
-    
-    .flex-container > div{
-      background-color: #f1f1f1;
-      width: 100px;
-      margin: 10px;
-      text-align: center;
-      line-height: 75px;
-      font-size: 30px;
       
-    }
-/*<-------------------------------FLEXBOX END----------------------->*/
-    
-
-    div{
-      float: left;
-      
-    }
