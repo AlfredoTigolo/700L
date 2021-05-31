@@ -25,29 +25,8 @@ body{
 
 
 /* <-------------Discography INDEX Tables -------->*/
- #tableindex{
-       font-size: larger;
-       
- }
 
-    table,th,td{
-      text-align: Left;
-    
-}
-   
-  th,td{
-   
-    padding: -100px
-    
-}   
-  th{
- 
-   column-rule-width: medium;
-   
-   
-    
-    
-}
+
     table{
       border: -5px;
       border-style: double;
@@ -55,58 +34,20 @@ body{
       font-family: 'Times New Roman', Times, serif;
       font-size: medium;
       color: dimgrey;
+      padding: 30px;
+      height: 100px;
+      width: 100px;
+      column-width: 30%;}
+
+      td{
+        column-width: 20%;
+      }
       
 
 
     }
 
-    #tableindex1{
-      padding: 30px;
-      
-      
-
-    }
-
-    #tableindex2{
-      padding: 30px;
     
-
-      
-    }
-
- #tableindex3  {
-      padding: 30px;
-   
-    }
- #tableindex4  {
-      padding: 30px;
-  
-    }
-  #tableindex5   {
-      padding: 30px;
-
-    }
-
-   #tableindex6   {
-      padding: 30px;      
-
-    }
-
-  #tableindex7   {
-      padding: 30px;
-
-      
-    }
-
-  #tableindex8   {
-      padding: 30px;
- 
-    }
-
-  #tableindex9  {
-      padding: 30px;
-  
-    }
 /* <-------------Discography INDEX tables END--------->*/
 
       
@@ -157,6 +98,7 @@ body{
     .flex-container {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-evenly;
       background-color: DodgerBlue;
     }
     
@@ -167,6 +109,7 @@ body{
       text-align: center;
       line-height: 75px;
       font-size: 30px;
+      
     }
 /*<-------------------------------FLEXBOX END----------------------->*/
     
