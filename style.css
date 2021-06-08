@@ -2,43 +2,24 @@
   box-sizing: border-box;
 }
 
+/*<------FLEXBOX------>*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(2, 2, 2);
+}
 
+.flex-container>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  /*<---FLEXBOX END-->*/
+}
 
-table{/* <-----Discography INDEX Tables ----->*/
-      table-layout: fixed;
-          border: -5px;
-             border-style: double;
-                border-color:grey;
-                    font-family: 'Times New Roman', Times, serif;
-                        font-size: small;
-                            color: dimgrey;
-                                padding: 30px;
-                              }
-
-td,tr{
-      table-layout: fixed;
-            font-family: 'Times New Roman', Times, serif;
-                text-align: left;
-/* <---Discography INDEX tables END--->*/}
-      
-
-
-
-.flex-container {/*<------FLEXBOX------>*/
-                display: flex;
-                    flex-wrap: wrap;
-                        justify-content: space-evenly;
-                              background-color: rgb(2, 2, 2);
-                            }
-    
-.flex-container > div{
-                     background-color: #f1f1f1;
-                        width: 100px;
-                          margin: 10px;
-                            text-align: center;
-                                line-height: 75px;
-                                      font-size: 30px;
-/*<---FLEXBOX END-->*/}
 
 body {
   font-family: Arial;
@@ -53,8 +34,6 @@ body {
   background: rgb(3, 3, 3);
   color: #f1f1f1;
 }
-
-
 
 /* Style the top navigation bar */
 .topnav {
@@ -101,37 +80,10 @@ body {
   margin-top: 20px;
 }
 
-
 #welcomeimage {
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  margin: 0px 15px 15px 0px;
+  width: 100;
+
   border-radius: 50%;
-}
-
-#mjk {
-  border-radius: 8px;
-  width:100px;
-  height:100px;
-  padding: 20px;
-}
-
-#aj {
-  border-radius: 8px;
-  width:100px;
-  height:100px;
-  padding: 20px
-}
-
-#dc {
-  border-radius: 8px;
-  width:100px;
-  height:100px;
-  padding: 20px
-}
-
-#jc {
-  border-radius: 8px;
-  width:100px;
-  height:100px;
-  padding: 20px
 }
