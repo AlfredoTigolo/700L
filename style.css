@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+
+  
 }
 
 /*<------FLEXBOX------>*/
@@ -21,10 +23,21 @@
 }
 
 
+
+
+#tile{
+  
+  border-image-repeat: repeat;
+  width: 30px;
+  outline-width: 30px;
+}
+
+
 body {
   font-family: Arial;
   padding: 10px;
-  background: #020202;
+  background: #020202; 
+
 }
 
 /* Header/Blog Title */
@@ -33,6 +46,11 @@ body {
   text-align: center;
   background: rgb(3, 3, 3);
   color: #f1f1f1;
+}
+
+h2{
+    font-family:"fantasy";
+
 }
 
 /* Style the top navigation bar */
