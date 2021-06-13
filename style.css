@@ -1,5 +1,5 @@
 
-/*<------FLEXBOX------>*/
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -14,28 +14,30 @@
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-  /*<---FLEXBOX END-->*/
-}
-
-
-
-
-#tile{
   
-  border-image-repeat: repeat;
-  width: 30px;
-  outline-width: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 50rem;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(58, 57, 57);
+  color: rgb(214, 209, 209);
 }
 
 
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #020202; 
-
-}
-
-/* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
@@ -48,29 +50,22 @@ h2{
 
 }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #020202; 
+
 }
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+p{
+  white-space: nowrap;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  text-align: justify;
+  flex-flow: wrap;
 }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: rgb(58, 57, 57);
-  color: rgb(214, 209, 209);
-}
-
-/* Add a card effect for articles */
 .card {
   background-color: rgb(5, 5, 5);
   padding: 20px;
@@ -78,30 +73,11 @@ h2{
   color: #f1f1f1;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: rgb(2, 2, 2);
-  margin-top: 20px;
-}
-
-#welcomeimage {
-  float: left;
-  margin: 0px 15px 15px 0px;
-  width: 100;
-
-  border-radius: 50%;
-}
-
-
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -114,3 +90,19 @@ h2{
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
+  }
+}
+
+.welcomeimg {
+  float: left;
+  margin: 0px 15px 15px 0px;
+  width: 100;
+  border-radius: 50%;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(2, 2, 2);
+  margin-top: 20px;
+}
