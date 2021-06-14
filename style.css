@@ -19,7 +19,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: dimgray;
   border-radius: 50rem;
 }
 
@@ -47,9 +47,17 @@
 
 h2{
     font-family:"fantasy";
+    text-align: center;
+
 
 }
 
+#band{
+justify-content: space-evenly;
+padding: auto;
+border-radius: 20rem;
+flex-flow: column;
+}
 
 body {
   font-family: Arial;
@@ -58,13 +66,6 @@ body {
 
 }
 
-p{
-  white-space: nowrap;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: larger;
-  text-align: justify;
-  flex-flow: wrap;
-}
 
 .card {
   background-color: rgb(5, 5, 5);
@@ -78,6 +79,8 @@ p{
   display: table;
   clear: both;
 }
+
+
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -93,12 +96,7 @@ p{
   }
 }
 
-.welcomeimg {
-  float: left;
-  margin: 0px 15px 15px 0px;
-  width: 100;
-  border-radius: 50%;
-}
+
 
 .footer {
   padding: 20px;
